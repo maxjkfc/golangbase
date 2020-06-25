@@ -11,3 +11,10 @@ func TestHello(t *testing.T) {
 	t.Log(str)
 }
 
+func BenchmarkHello(b *testing.B) {
+	for i := 0; i <= b.N; i++ {
+		Hello(true)
+	}
+	b.ReportAllocs()
+}
+

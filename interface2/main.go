@@ -15,15 +15,15 @@ type people struct {
 }
 
 func (p *people) Name() {
-	fmt.Printf("My name is %s \n", p.name)
+	fmt.Printf("[PEOPLE] My name is %s \n", p.name)
 }
 
 func (p *people) Age() {
-	fmt.Printf("My age is %d\n", p.age)
+	fmt.Printf("[PEOPLE] My age is %d\n", p.age)
 }
 
 func (p *people) Eat() {
-	fmt.Printf("I eat %s\n", p.food)
+	fmt.Printf("[PEOPLE] I eat %s\n", p.food)
 }
 
 //
@@ -35,6 +35,13 @@ func main() {
 	}
 
 	Room(tom)
+
+	//x1 := &bot{
+	//name: "x1",
+	//age:  199999999,
+	//food: "機油",
+	//}
+	//Room(x1)
 
 }
 
