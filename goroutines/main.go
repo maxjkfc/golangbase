@@ -34,3 +34,4 @@ func multi() {
 	}
 	fmt.Printf("multi total :%v\n cost: %v\n", i, time.Now().Sub(t))
 }
+

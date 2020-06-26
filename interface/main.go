@@ -9,6 +9,7 @@ func main() {
 		x1 int32
 		x2 float64
 	)
+
 	fmt.Println(CheckInterface(x))
 	fmt.Println(CheckInterface(x1))
 	fmt.Println(CheckInterface(x2))
